@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.7-nodejs12-slim
+FROM nikolaik/python-nodejs:python3.11-nodejs20-slim
 
 WORKDIR /app
 COPY . /app
