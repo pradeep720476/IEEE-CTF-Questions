@@ -1,4 +1,4 @@
-FROM ruby:2.5
+FROM docker.io/ruby:2.5
 RUN apt-get update -qq && apt-get install -y nodejs sqlite3 libsqlite3-dev
 RUN mkdir /app
 WORKDIR /app
