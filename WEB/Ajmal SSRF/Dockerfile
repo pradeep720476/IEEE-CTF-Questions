@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.11-nodejs20-slim
+FROM docker.io/nikolaik/python-nodejs:python3.11-nodejs20-slim
 
 WORKDIR /app
 COPY . /app
