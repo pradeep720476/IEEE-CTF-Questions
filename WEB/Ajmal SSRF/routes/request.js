@@ -16,11 +16,13 @@ var filter=function (url){
     var r7=/0x7f.00.00.01/g;
     var r8=/0177.0000.0000.0001/g;
     var r9=/017700000001/g;
+    var r10=/169.254.169.254/g;
 
     var value=regex.test(url);
     var v2=r2.test(url); var v3=r3.test(url); var v4=r4.test(url); var v5=r5.test(url);var v6=r6.test(url);var v7=r7.test(url); var v8=r8.test(url); var v9=r9.test(url);
+    var v10 = r10.test(url);
 
-    if(value==v2==v3==v4==v5==v6==v7==v8==v9){
+    if(value==v2==v3==v4==v5==v6==v7==v8==v9==v10){
         return true;
     }
     else {
