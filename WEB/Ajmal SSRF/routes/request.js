@@ -1,7 +1,7 @@
 const express=require("express")
 const router=express.Router()
 const bparse=require("body-parser");
-const http=require("follow-redirects").http;
+const http=require("http")
 const fs=require("fs")
 
 
