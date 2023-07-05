@@ -21,17 +21,14 @@ var filter=function (url){
     var r12=/[fd00:ec2::254]/g;
     var r13 =/0xA9FEA9FE/g;
     var r14 = /0xa9fea9fe/g;
-    var r15 = /0%78A9FEA9FE/g;
 
-    console.log("accesing url");
     console.log(url);
 
     var value=regex.test(url);
     var v2=r2.test(url); var v3=r3.test(url); var v4=r4.test(url); var v5=r5.test(url);var v6=r6.test(url);var v7=r7.test(url); var v8=r8.test(url); var v9=r9.test(url);
     var v10 = r10.test(url);var v11 = r11.test(url);var v12 = r12.test(url);var v13 = r13.test(url); var v14 = r14.test(url);
-    var v15 = r15.test(url);
 
-    if(value==v2==v3==v4==v5==v6==v7==v8==v9==v10==v11==v12==v13==v14==v15){
+    if(value==v2==v3==v4==v5==v6==v7==v8==v9==v10==v11==v12==v13==v14){
         return true;
     }
     else {
