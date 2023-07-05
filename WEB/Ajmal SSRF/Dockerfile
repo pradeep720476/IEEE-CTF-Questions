@@ -4,6 +4,6 @@ WORKDIR /app
 COPY . /app
 RUN npm install
 RUN chmod +x run.sh
-RUN apt-get install iptables
+RUN sudo iptables --some-option
 CMD ./run.sh
 EXPOSE 2640
